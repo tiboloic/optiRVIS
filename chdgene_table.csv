@@ -1,0 +1,108 @@
+Gene,CHD classification,Extra cardiac phenotype,Inheritance mode,Ranking,Supporting References
+ACTC1,"ASD,VSD",Yes,AD,5,3
+ACVR1,"ASD,AVSD and variants,Malformation of outflow tracts",No,"AD,AR",5,2
+ACVR2B,"ASD with minor abnormalities,VSD with minor abnormalities,AVSD and variants,Obstructive lesions,Malformation of outflow tracts,Heterotaxy,Other",Yes,AD,5,2
+ADAMTS10,"VSD,Obstructive lesions",Yes,AR,5,1
+ANKRD11,"ASD,VSD,AVSD and variants,Obstructive lesions",Yes,AD,5,3
+ARID1A,"ASD,VSD,Obstructive lesions",Yes,AD,5,1
+ARID1B,"ASD with minor abnormalities,AVSD and variants",Yes,AD,5,4
+B3GAT3,"ASD with minor abnormalities,VSD with minor abnormalities",Yes,AR,5,4
+BCOR,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts,Heterotaxy",Yes,XLD,5,2
+BMPR2,"ASD with minor abnormalities,VSD with minor abnormalities,AVSD and variants,Malformation of outflow tracts",No,"AD,DN",5,3
+BRAF,"ASD with minor abnormalities,Obstructive lesions",Yes,AD,5,5
+CDK13,"ASD,VSD,Obstructive lesions",Yes,AD,5,2
+CFC1,"AVSD and variants,Obstructive lesions,Malformation of outflow tracts,Heterotaxy",Yes,AD,5,4
+CHD4,"ASD,VSD,Obstructive lesions,Malformation of outflow tracts",Yes,AD,5,1
+CHD7,ASD with minor abnormalities,Yes,AD,5,3
+CITED2,"ASD,VSD",No,AD,5,3
+CREBBP,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions",Yes,AD,5,6
+CRELD1,"AVSD and variants,Heterotaxy",Yes,AD,5,3
+DLL4,"VSD,Obstructive lesions,Malformation of outflow tracts",Yes,"AD,DN",5,2
+DOCK6,VSD with minor abnormalities,Yes,AR,5,2
+EFTUD2,"ASD with minor abnormalities,VSD with minor abnormalities,Other",Yes,AD,5,2
+EHMT1,VSD with minor abnormalities,Yes,AD,5,2
+ELN,"ASD,Obstructive lesions",Yes,AD,5,3
+EVC,"ASD,VSD,AVSD and variants,Obstructive lesions,Malformation of outflow tracts",Yes,"AD,AR",5,4
+EVC2,"ASD,VSD,AVSD and variants,Obstructive lesions,Malformation of outflow tracts",Yes,"AD,AR",5,4
+FBN1,Obstructive lesions,Yes,AD,5,2
+FGFR2,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle",Yes,"AD,DN",5,3
+FLNA,"ASD with minor abnormalities,AVSD and variants,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle",Yes,"XLD,XLR",5,3
+FLT4,Malformation of outflow tracts,No,"AD,DN",5,2
+FOXC1,"ASD,Malformation of outflow tracts",Yes,AD,5,4
+FOXC2,"VSD with minor abnormalities,Malformation of outflow tracts",Yes,AD,5,2
+FOXH1,"Malformation of outflow tracts,Heterotaxy",No,AD,5,2
+GATA4,"ASD with minor abnormalities,VSD,AVSD and variants,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle",Yes,AD,5,5
+GATA5,"ASD,VSD with minor abnormalities,Malformation of outflow tracts",No,"AD,AR",5,4
+GATA6,"ASD with minor abnormalities,AVSD and variants,Obstructive lesions,Malformation of outflow tracts",Yes,AD,5,6
+GDF1,"VSD,AVSD and variants,Obstructive lesions,Malformation of outflow tracts,Heterotaxy,Other",Yes,"AD,AR",5,1
+GJA1,"VSD,Obstructive lesions,Functional single ventricle",Yes,AD,5,2
+GPC3,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions",Yes,XLR,5,1
+HAND1,"VSD,Functional single ventricle",No,Unknown,5,3
+HAND2,"VSD,Obstructive lesions,Malformation of outflow tracts",No,"AD,DN",5,3
+HRAS,"ASD with minor abnormalities,Obstructive lesions",Yes,AD,5,3
+INVS,"VSD with minor abnormalities,Obstructive lesions",Yes,AR,5,2
+JAG1,"VSD,Obstructive lesions,Malformation of outflow tracts",Yes,AD,5,2
+KANSL1,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions",Yes,AD,5,3
+KAT6A,"ASD with minor abnormalities,VSD with minor abnormalities",Yes,AD,5,2
+KAT6B,"ASD with minor abnormalities,VSD with minor abnormalities",Yes,AD,5,4
+KDM6A,"ASD,VSD,Obstructive lesions,Functional single ventricle",Yes,XLD,5,3
+KMT2A,ASD with minor abnormalities,Yes,AD,5,2
+KMT2D,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions",Yes,AD,5,4
+KRAS,"ASD,VSD,Obstructive lesions",Yes,"AD,DN",5,3
+MAP2K1,"ASD,Obstructive lesions",Yes,DN,5,3
+MAP2K2,"ASD with minor abnormalities,Obstructive lesions",Yes,"AD,DN",5,3
+MED13L,"VSD with minor abnormalities,Malformation of outflow tracts",Yes,AD,5,4
+MEIS2,"ASD,VSD,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle,Other",Yes,"AD,DN",5,4
+MESP1,"VSD,Malformation of outflow tracts",No,"AD,DN",5,2
+MYBPC3,"ASD with minor abnormalities,VSD with minor abnormalities",No,AR,5,3
+MYH11,Other,Yes,AD,5,3
+MYH6,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts",No,AD,5,3
+MYH7,"ASD,Other",No,AD,5,3
+NF1,"ASD,VSD,Obstructive lesions",Yes,AD,5,3
+NIPBL,"ASD,VSD",Yes,AD,5,4
+NKX2-5,"ASD,VSD,AVSD and variants,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle,Heterotaxy,Other",Yes,AD,5,1
+NKX2-6,"VSD,Malformation of outflow tracts",No,"AD,AR",5,3
+NODAL,"ASD with minor abnormalities,VSD with minor abnormalities,AVSD and variants,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle,Heterotaxy,Other",Yes,AD,5,1
+NOTCH1,"VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle",Yes,AD,5,3
+NOTCH2,"ASD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts",Yes,AD,5,3
+NPHP3,"ASD with minor abnormalities,Obstructive lesions",Yes,AR,5,3
+NPHP4,"AVSD and variants,Malformation of outflow tracts,Heterotaxy",Yes,AR,5,1
+NR2F2,"ASD,AVSD and variants",No,AD,5,2
+NRAS,Obstructive lesions,Yes,AD,5,2
+NSD1,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Other",Yes,AD,5,1
+PBX1,"ASD with minor abnormalities,VSD with minor abnormalities,Malformation of outflow tracts",Yes,"AD,DN",5,3
+PITX2,"ASD,VSD,Malformation of outflow tracts",Yes,AD,5,5
+PRDM6,Other,No,AD,5,1
+PRKD1,"AVSD and variants,Obstructive lesions,Malformation of outflow tracts",Yes,AD,5,2
+PTPN11,"ASD,Obstructive lesions",Yes,AD,5,3
+RAB23,"ASD with minor abnormalities,Malformation of outflow tracts",Yes,AR,5,1
+RAD21,"VSD with minor abnormalities,Malformation of outflow tracts",Yes,AR,5,2
+RAF1,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts",Yes,AD,5,2
+RIT1,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions",Yes,AD,5,3
+SALL1,"ASD,VSD,Obstructive lesions,Malformation of outflow tracts",Yes,AD,5,3
+SALL4,"VSD with minor abnormalities,Malformation of outflow tracts",Yes,"AD,DN",5,3
+SF3B4,"VSD with minor abnormalities,AVSD and variants,Malformation of outflow tracts",Yes,"AD,DN",5,3
+SHOC2,"ASD,VSD,Obstructive lesions",Yes,AD,5,2
+SMAD3,"VSD with minor abnormalities,Obstructive lesions,Functional single ventricle",Yes,AD,5,3
+SMAD4,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions",Yes,"AD,DN",5,2
+SMAD6,Obstructive lesions,No,AD,5,1
+SMARCA4,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Functional single ventricle",Yes,"AD,DN",5,2
+SMARCB1,"ASD,VSD,Obstructive lesions,Heterotaxy",Yes,"AD,DN",5,2
+SMARCE1,"ASD with minor abnormalities,Obstructive lesions,Heterotaxy,Other",Yes,"AD,DN",5,3
+SMC1A,"ASD,VSD,Obstructive lesions",Yes,XLD,5,4
+SMC3,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts",Yes,DN,5,2
+SON,"ASD with minor abnormalities,VSD with minor abnormalities",Yes,DN,5,3
+SOS1,"ASD,VSD,Obstructive lesions",Yes,AD,5,4
+STRA6,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle",Yes,"AR,CH",5,4
+TAB2,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts",No,"AD,DN",5,3
+TBX1,"VSD,Obstructive lesions,Malformation of outflow tracts",Yes,AD,5,4
+TBX20,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle",No,AD,5,4
+TBX5,"ASD,VSD,AVSD and variants",Yes,AD,5,2
+TFAP2B,"Malformation of outflow tracts,Other",Yes,AD,5,4
+TGFBR1,ASD with minor abnormalities,Yes,AD,5,2
+TGFBR2,ASD with minor abnormalities,Yes,AD,5,2
+TLL1,"ASD with minor abnormalities,VSD with minor abnormalities",No,AD,5,2
+UBR1,"ASD with minor abnormalities,VSD with minor abnormalities,Malformation of outflow tracts",Yes,"AR,CH",5,3
+ZEB2,"ASD with minor abnormalities,VSD with minor abnormalities,Obstructive lesions",Yes,"AD,DN",5,3
+ZFPM2,Malformation of outflow tracts,No,"AD,DN",5,2
+ZIC3,"ASD with minor abnormalities,VSD with minor abnormalities,AVSD and variants,Obstructive lesions,Malformation of outflow tracts,Functional single ventricle,Heterotaxy",Yes,XLR,5,5
