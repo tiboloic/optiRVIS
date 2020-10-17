@@ -40,7 +40,7 @@ plotSFS = function(SFS, csq_list, protein_coding = TRUE) {
   preds = preds %>% gather(key='octave', value='pred', as.character(0:17), convert = TRUE)
   
   dat = dat %>% inner_join(preds)
-  dat=subset(dat, octave > 10)
+  #dat=subset(dat, octave > 10)
   fig = ggplot(dat) + geom_line(aes(x = octave, y = pred, color=worst_csq),lwd=1) +
     geom_point(aes(x = octave, y = obs, color=worst_csq), size=4, alpha=0.5) +
     theme_classic() + theme(legend.position = 'top') +
