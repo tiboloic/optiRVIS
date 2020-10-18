@@ -30,7 +30,7 @@ abline(a=0,b=1,col=2)
 
 
 # look at correlation with other metrics
-cons = read.delim('gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz')
+cons = read.delim('data/gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz')
 cons$loeuf = qchisq(0.95, 2 *(cons$obs_lof+1))/2/cons$exp_lof
 func = ecdf(cons$loeuf)
 cons$stdloeuf = qnorm(func(cons$loeuf))
@@ -46,7 +46,7 @@ plot(oe_mis_upper ~ beta.x, data=dat, xlab="pSFS AN filtered", ylab='LOEUF')
 cor.test(dat$oe_mis_upper, dat$beta.x)
 plot(oe_mis_upper ~ beta.y, data=dat, xlab="pSFS AN variable", ylab='LOEUF')
 cor.test(dat$oe_mis_upper, dat$beta.y)
-plot(stdloeuf ~ beta, data=dat, xlab="pSFS", ylab='standardized LOEUF')
+plot(stdloeuf ~ beta.x, data=dat, xlab="pSFS", ylab='standardized LOEUF')
 cor.test(dat$oe_mis_upper, dat$beta)
 
 # is there  is some length bias
