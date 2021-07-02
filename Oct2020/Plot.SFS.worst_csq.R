@@ -2,9 +2,9 @@
 
 # plot SFS fits for synonymous, stop_gained, missense
 
-require(dplyr)
-require(tidyr)
-require(ggplot2)
+# 30/06/2021: modified for pSFS paper figure
+
+require(tidyverse)
 
 # function to bin probs
 getpowerps = function(beta=1, n=251496) {
@@ -12,7 +12,7 @@ getpowerps = function(beta=1, n=251496) {
   ps = ps/sum(ps)
   bins = floor(log(1:n,2))
   dat = data.frame(p = ps, bin=bins)
-  dat = dat %>% group_by(bin) %>% summarize(p=sum(p))
+  dat = dat %>% group_by(bin) %>% summarize(p=sum(p), .groups='drop')
   return(dat$p)
 }
 
@@ -40,12 +40,12 @@ plotSFS = function(SFS, csq_list, protein_coding = TRUE) {
   preds = preds %>% gather(key='octave', value='pred', as.character(0:17), convert = TRUE)
   
   dat = dat %>% inner_join(preds)
-  #dat=subset(dat, octave > 10)
+
   fig = ggplot(dat) + geom_line(aes(x = octave, y = pred, color=worst_csq),lwd=1) +
-    geom_point(aes(x = octave, y = obs, color=worst_csq), size=4, alpha=0.5) +
-    theme_classic() + theme(legend.position = 'top') +
+    geom_point(aes(x = octave, y = obs, color=worst_csq), size=2, alpha=1) +
+    theme_classic(base_size=15) + theme(legend.position = 'top') + scale_y_sqrt() +
     ggtitle(ifelse(protein_coding, 'protein-coding genes', 'non protein-coding genes'))
-  
+
   fig
 }
 
@@ -67,3 +67,6 @@ plot(fig1a)
 
 fig1b = plotSFS(SFS, target_variants, protein_coding=TRUE)
 plot(fig1b)
+
+fig1b = fig1b+ggtitle('Linear power law') + ylab('Proportion of variants') +
+  xlab('Allele frequency (octave)')

@@ -29,6 +29,8 @@ cons$stdloeuf = qnorm(f(cons$oe_lof_upper))
 
 # some divergence above 1
 plot(stdloeuf ~ stdltloeuf, data=cons)
+plot(loeuf ~ oe_lof_upper, data=cons, log='xy', xlab='LOEUF', ylab='o/e 90% CI upper bound')
+lines(1:100/50, 1:100/50, col=2, lwd=2)
 
 # recalculate moeuf my way
 cons$moeuf = qchisq(0.95, 2 *(cons$obs_mis+1))/2/cons$exp_mis
